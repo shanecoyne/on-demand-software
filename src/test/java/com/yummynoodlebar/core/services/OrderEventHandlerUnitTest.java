@@ -25,7 +25,7 @@ public class OrderEventHandlerUnitTest {
   }
 
   @Test
-  public void addANewOrderToTheSystem1() {
+  public void addANewOrderToTheSystem() {
 
     when(mockOrdersMemoryRepository.save(any(Order.class))).thenReturn(new Order(new Date()));
 
