@@ -13,7 +13,7 @@ import static junit.framework.TestCase.*;
 import static junit.framework.TestCase.assertEquals;
 import static org.mockito.Mockito.*;
 
-public class OrderEventHandlerUnitTest {
+public class OrderEventHandlerUnitTest1 {
 
   OrderEventHandler uut;
   OrdersMemoryRepository mockOrdersMemoryRepository;
