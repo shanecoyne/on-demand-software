@@ -13,7 +13,7 @@ import static junit.framework.TestCase.*;
 import static junit.framework.TestCase.assertEquals;
 import static org.mockito.Mockito.*;
 
-public class OrderEventHandlerUnitTest1 {
+public class OrderEventHandlerUnitTest {
 
   OrderEventHandler uut;
   OrdersMemoryRepository mockOrdersMemoryRepository;
@@ -25,7 +25,7 @@ public class OrderEventHandlerUnitTest1 {
   }
 
   @Test
-  public void addANewOrderToTheSystem() {
+  public void addANewOrderToTheSystem1() {
 
     when(mockOrdersMemoryRepository.save(any(Order.class))).thenReturn(new Order(new Date()));
 
