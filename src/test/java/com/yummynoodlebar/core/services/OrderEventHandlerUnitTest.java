@@ -19,7 +19,7 @@ public class OrderEventHandlerUnitTest {
   OrdersMemoryRepository mockOrdersMemoryRepository;
 
   @Before
-  public void setupUnitUnderTest1() {
+  public void setupUnitUnderTest() {
     mockOrdersMemoryRepository = mock(OrdersMemoryRepository.class);
     uut = new OrderEventHandler(mockOrdersMemoryRepository);
   }
